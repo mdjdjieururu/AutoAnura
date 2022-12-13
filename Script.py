@@ -14,7 +14,9 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://paisakamalo.in/')
-    START_TXT = environ.get("START_TXT", "𝙷𝙴𝙻𝙾 {}")
+    START_TXT = environ.get("START_TXT", "𝖧𝖤𝖫𝖮 {},
+𝖬𝖸 𝖭𝖠𝖬𝖤 𝖨𝖲 <a href=https://t.me/{}>{}</a>, 𝖨 𝖠𝖬 𝖦𝖱𝖮𝖴𝖯 𝖬𝖠𝖭𝖠𝖦𝖤𝖱 𝖡𝖮𝖳 𝖢𝖱𝖤𝖠𝖳𝖤𝖣 𝖥𝖮𝖱 𝖬𝖠𝖫𝖫𝖴 𝖬𝖮𝖵𝖨𝖤 𝖲𝖤𝖠𝖱𝖢𝖧 , 𝖮𝖭𝖨𝖸 𝖠𝖴𝖳𝖧𝖮𝖱𝖨𝖲𝖤𝖣 𝖠𝖣𝖬𝖨𝖭𝖲 𝖢𝖠𝖭 𝖠𝖢𝖢𝖤𝖲𝖲
+𝖣𝖮𝖭 𝖳 𝖶𝖠𝖲𝖳𝖤 𝖸𝖮𝖴𝖱 𝖳𝖨𝖬𝖤😁")
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}</b>
