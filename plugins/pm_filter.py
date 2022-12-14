@@ -740,7 +740,7 @@ async def auto_filter(client, msg, spoll=False):
         cap = f"Rᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ : <code>{search}</code>\n\n\n😌 ɪꜰ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ ᴀʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴛʜᴇɴ ʟᴇᴀᴠᴇ ᴀ ᴍᴇssᴀɢᴇ ʙᴇʟᴏᴡ 😌 \n\nᴇxᴀᴍᴘʟᴇ : \n\nᴇɴᴛᴇʀ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ (ʏᴇᴀʀ) ᴛᴀɢ @admin"
     if imdb and imdb.get('poster'):
         try:
-            hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
+            hehe =  await message.reply_photo(photo=imdb.get('https://telegra.ph/file/1c4c77e0a3cf46a04e64c.jpg'), caption=cap[:1024],
                                       reply_markup=InlineKeyboardMarkup(btn))
             if SELF_DELETE:
                 await asyncio.sleep(SELF_DELETE_SECONDS)
