@@ -824,9 +824,10 @@ async def advantage_spell_chok(msg):
            InlineKeyboardButton("⭕️ IMDb", url=f"https://www.imdb.com/find?q={search}"),
            InlineKeyboardButton("Wikipedia ⭕️", url=f"https://en.m.wikipedia.org/w/index.php?search={search}")
         ]])
-        k = await msg.reply(f"Hey, Your word <b>{search}</b> is No Movie/Series Related to the Given Word Was Found 🥺\n\n<s>Please Go to Google and Confirm the Correct Spelling 🥺🙏</s>", reply_markup=button)
-        await asyncio.sleep(60)
-        await k.delete()
+        m = await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?",
+                    reply_markup=InlineKeyboardMarkup(btn))
+    await asyncio.sleep(20)
+    await m.delete()
 
 
 async def manual_filters(client, message, text=False):
