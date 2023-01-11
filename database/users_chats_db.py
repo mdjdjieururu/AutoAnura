@@ -1,6 +1,6 @@
-# https://github.com/odysseusmax/animated-lamp/blob/master/bot/database/database.py
+#https://github.com/AM-ROBOTS
 import motor.motor_asyncio
-from info import DATABASE_NAME, DATABASE_URI, IMDB, IMDB_TEMPLATE, MELCOW_NEW_USERS, P_TTI_SHOW_OFF, SINGLE_BUTTON, SPELL_CHECK_REPLY, PROTECT_CONTENT, AUTO_DELETE, AUTO_FFILTER, MAX_BTN
+from info import DATABASE_NAME, DATABASE_URI, IMDB, IMDB_TEMPLATE, MELCOW_NEW_USERS, P_TTI_SHOW_OFF, SINGLE_BUTTON, SPELL_CHECK_REPLY, PROTECT_CONTENT, MAX_BTN
 
 class Database:
     
@@ -114,8 +114,6 @@ class Database:
             'imdb': IMDB,
             'spell_check': SPELL_CHECK_REPLY,
             'welcome': MELCOW_NEW_USERS,
-            'auto_delete': AUTO_DELETE,
-            'auto_ffilter': AUTO_FFILTER,
             'max_btn': MAX_BTN,
             'template': IMDB_TEMPLATE
         }
